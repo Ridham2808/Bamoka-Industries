@@ -274,3 +274,11 @@
     height: auto;
     display: block;
 }
+
+.container-4 img{
+    height: 600px;
+    width: 520px;
+    margin-left: 123px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
