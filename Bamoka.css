@@ -5,8 +5,39 @@
     font-family: Arial, sans-serif;
 }
 
-.navebar{
+.nave{
     background-color: black;
     height: 55px;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    margin-left: 50px;
+}
+
+.navebar{
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+    font-size:large;
+}
+
+.intro{
+    margin-top: 20px;
+    color: white;
+}
+
+.intro img{
+    position: absolute;
+    height: 590px;
+    width: 1535px;
+    z-index: -1;
 }
