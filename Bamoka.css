@@ -88,15 +88,126 @@
 
 .container-1{
     margin-top: 60px;
+    display: flex;
+}
+
+.text{
+    margin-left: 100px;
 }
 
 .wel{
-    font-size:larger;
     font-weight: 700;
-    font-size: 70px;
+    font-size: 84px;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 .to{
-    font-size:large;
-    font-weight: 500;
+    font-size:40px;
+    font-weight: 700;
+}
+
+.bamoka{
+    color: #3F650A;
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 45px;
+    font-family: "Arial Rounded MT W02 Bold";
+}
+
+.we{
+    font-size: 16px;
+    color: #1B1B1B;
+    margin: 10px 0 20px 0;
+    line-height: 25px;
+}
+
+.container-1 img{
+    height: 449px;
+    width: 615px;
+    margin-left: 166px;
+    border-radius: 20px;
+}
+
+.container-2{
+    display: flex;
+    margin-top: 90px;
+}
+
+.container-2 img{
+    height: 449px;
+    width: 615px;
+    margin-left: 100px;
+    border-radius: 20px;
+}
+
+.text-2{
+    margin-left: 115px;
+}
+
+.about-us{
+    font-weight: 600;
+    font-size: 59px;
+}
+
+.manufacturer{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.container-3 h2{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.card-container {
+    display: flex;
+    gap: 15px;
+    margin-top: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.card {
+    width: 359px;
+    height: 379px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.card-text {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.card-text h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.card-text p {
+    margin: 10px 0 0;
+    font-size: 14px;
+}
+
+.big-logo img{
+    height: 600px;
+    width: 1600px;
+    margin-top: 70px;
+    position: absolute;
+    z-index: -1;
 }
