@@ -341,35 +341,34 @@
     margin-top: 50px;
 }
 
-
-.contact-section {
+#contact-section{
     margin-top: 80px;
     background-color:#1b1b1b;
     color: #fff;
     text-align: center;
     padding: 50px 20px;
 }
-  
-.contact-title{
+
+#contact-title{
     font-size: 32px;
     font-weight: bold;
     margin-bottom: 20px;
 }
-  
-.contact-description{
+
+#contact-description{
     font-size: 16px;
     font-weight: bold;
     line-height: 2;
     max-width: 700px;
     margin: 0 auto 30px;
 }
-  
-.contact-form{
+
+#contact-form{
     max-width: 1220px;
     margin: 0 auto;
 }
   
-.form-row{
+#form-row{
     display: flex;
     gap: 15px;
     margin-bottom: 30px;
@@ -386,7 +385,7 @@
     font-size: 18px;
 }
  
-.form-textarea{
+#form-textarea{
     width: 100%;
     padding: 8px;
     border: none;
@@ -398,7 +397,7 @@
     margin-bottom: 20px;
 }
   
-.form-button{
+#form-button{
     background-color: transparent;
     color: white;
     border: 1px solid #6b9b35;
@@ -408,7 +407,7 @@
     margin-top: 30px;
 }
   
-.form-button:hover{
+#form-button:hover{
     background-color: #6b9b35;
 }
 

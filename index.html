@@ -253,19 +253,19 @@
         <img src="./photos/logo5.png" alt="">
     </div>
 
-    <div class="contact-section">
-        <h1 class="contact-title">GET IN TOUCH</h1>
-        <p class="contact-description">
+    <div id="contact-section">
+        <h1 id="contact-title">GET IN TOUCH</h1>
+        <p id="contact-description">
             Bamoka Industries is one of the most prominent Manufacturers, Exporters, <br>and Suppliers of an amazing
             Guar Gum Powder in Navsari, Gujarat, India.
         </p>
-        <form class="contact-form">
-            <div class="form-row">
-                <input type="text" placeholder="Name" class="form-input" />
-                <input type="email" placeholder="E-mail" class="form-input" />
+        <form id="contact-form">
+            <div id="form-row">
+                <input type="text" placeholder="Name" class="form-input" id="name" required>
+                <input type="email" placeholder="E-mail" class="form-input" id="email" required>
             </div>
-            <textarea placeholder="Comments" class="form-textarea"></textarea>
-            <button type="button" class="form-button">Send</button>
+            <textarea placeholder="Comments" id="form-textarea" required></textarea>
+            <button type="button" id="form-button">Send</button>
         </form>
     </div>
 
@@ -304,6 +304,23 @@
             <p>2024 Bamoka Industries. All Rights Reserved</p>
         </div>
     </div>
+    <script>
+        document.getElementById("form-button").addEventListener("click", function () {
+            const name = document.getElementById("name").value;
+            const email = document.getElementById("email").value;
+            const comment = document.getElementById("form-textarea").value;
 
+            if (name && email && comment) {
+                localStorage.setItem("userName", name);
+                localStorage.setItem("userEmail", email);
+                localStorage.setItem("userComment", comment);
+
+                window.location.href = "form.html";
+            } else {
+                alert("Please fill all the fields.");
+            }
+        });
+    </script>
 </body>
+
 </html>
